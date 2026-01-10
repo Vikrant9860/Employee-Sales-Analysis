@@ -1,5 +1,5 @@
 # Employee-Sales-Analysis
-This project analyzes employee sales performance during the Diwali season using Python in Jupyter Notebooks. The dataset includes sales transactions, employee details, and revenue insights to understand sales trends, employee order amounts , and performance metrics according to gender, age group ,amount of orders ,and which types of the products are purchassed .
+This project analyzes employee sales performance using Python in Jupyter Notebooks. The dataset includes sales transactions, employee details, and revenue insights to understand sales trends, employee order amounts , and performance metrics according to gender, age group ,amount of orders ,and which types of the products are purchassed .
 Features:
 
 Data Cleaning & Preprocessing: Handling missing values, data transformation, and formatting.
