@@ -1,27 +1,64 @@
-# Employee-Sales-Analysis
-This project analyzes employee sales performance during diwali season using Python in Jupyter Notebooks. The dataset includes sales transactions, employee details, and revenue insights to understand sales trends, employee order amounts , and performance metrics according to gender, age group ,amount of orders ,and which types of the products are purchassed .
-Features:
+# Employee Diwali Sales Analysis
 
-Data Cleaning & Preprocessing: Handling missing values, data transformation, and formatting.
+**Basic Introduction:**
+This project analyzes **11,251 Diwali sales transactions** to understand customer buying patterns and **employee sales performance**. Originally focused on customer demographics (gender, age, occupation, geography), it has been **upgraded with employee KPI analytics** featuring 3 performance metrics, executive dashboards, and production-ready CSV exports for HR and management use.
 
-Exploratory Data Analysis (EDA): Visualizing sales trends, peak sales periods, and employee performance.
+**Built by:** Vikrant More 
+[![GitHub Repo stars](https://img.shields.io/github/stars/Vikrant9860/Employee-Sales-Analysis)](https://github.com/Vikrant9860/Employee-Sales-Analysis)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-%23F37626.svg?&logo=Jupyter&logoColor=white)](https://jupyter.org/)
 
-Statistical Insights: Identifying top-performing employees, sales contributions, and revenue impact.
+## 📊 Project Evolution
+Phase 1: Customer EDA 
+├── Gender, Age, State analysis (26 states)
+├── Product categories (Auto, Clothing leaders)
+└── Basic sales visualization
 
-Data Visualization: Interactive charts using Matplotlib, Seaborn, and Plotly for insightful analysis.
+Phase 2: EMPLOYEE KPI UPGRADE
+├── 4,137 employees analyzed across India
+├── 3 KPIs: Total Sales/Orders/Avg Order Value
+├── Top 10 performers leaderboard
+├── Production CSV exports 
 
-Predictive Analysis (Optional): Using regression models to forecast sales trends.
+## 🎖️ Key Features
 
+### **Customer Insights**
+👥 Demographics: Females buy 60% more | 26-35 age peak
+🗺️ Geography: Maharashtra > UP > Bihar top states
+💼 Occupations: IT/Healthcare lead purchases
+🛒 Categories: Auto > Clothing > Electronics
 
-Tools & Technologies Used:
+### **Employee Performance KPIs (NEW)**
+🏆 Total Sales: ₹150K maximum (Employee 1003841)
+📦 Total Orders: 45 orders maximum
+💰 Avg Order Value: ₹3,333 upselling leader
+📊 4-Chart Executive Dashboard
 
-Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly)
+## 📈 Business Deliverables
+| **Role** | **File** | **Purpose** |
+|----------|----------|-------------|
+| CEO | `Top_10_Performers.csv` | Presentations |
+| HR | `Employee_KPIs_ALL.csv` | Bonuses/Payroll |
+| Sales Head | Dashboard | Training plans |
 
-Jupyter Notebook
+## 🛠️ Technical Implementation
+📊 Pandas: 11K rows → 4K employee KPIs
+📈 Seaborn: Professional 2x2 dashboard
+💻 Jupyter + VS Code: Development
+🔄 GitHub: Clean repo management
+📄 CSV Export: Excel/PowerBI compatible
 
-Data Science Libraries for Statistical Analysis
+## 📁 Repository Files
+├── Employee_Diwali_KPI_Analysis.ipynb ← Main (NEW)
+├── Employee_KPIs_ALL.csv ← 4,137 employees (NEW)
+├── Top_10_Performers.csv ← Management summary (NEW)
+└── Diwali_Sales_Data.csv ← Raw source
 
+## 🚀 Results at Glance
+🎯 4,137 employees ranked
+💰 ₹39,000,000+ total sales analyzed
+🏆 Top performer: ₹1.5L (45 orders)
 
-Objective:
+---
+**| Built By Vikrant More |** 
 
-To provide a data-driven approach to evaluating employee sales in india according to gender ,amount of orders and which types of the project are purchased
